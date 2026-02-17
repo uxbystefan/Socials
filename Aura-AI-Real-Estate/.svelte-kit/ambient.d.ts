@@ -40,7 +40,6 @@ declare module '$env/static/private' {
 	export const EDITOR: string;
 	export const EFC_17468: string;
 	export const GIT_ASKPASS: string;
-	export const GIT_PAGER: string;
 	export const GK_GL_ADDR: string;
 	export const GK_GL_PATH: string;
 	export const HOME: string;
@@ -111,8 +110,7 @@ declare module '$env/static/private' {
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
-	export const VSCODE_INJECTION: string;
-	export const VSCODE_PYTHON_AUTOACTIVATE_GUARD: string;
+	export const VSCODE_NONCE: string;
 	export const windir: string;
 	export const ZES_ENABLE_SYSMAN: string;
 	export const __PSLockDownPolicy: string;
@@ -159,7 +157,6 @@ declare module '$env/dynamic/private' {
 		EDITOR: string;
 		EFC_17468: string;
 		GIT_ASKPASS: string;
-		GIT_PAGER: string;
 		GK_GL_ADDR: string;
 		GK_GL_PATH: string;
 		HOME: string;
@@ -230,8 +227,7 @@ declare module '$env/dynamic/private' {
 		VSCODE_GIT_ASKPASS_MAIN: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
 		VSCODE_GIT_IPC_HANDLE: string;
-		VSCODE_INJECTION: string;
-		VSCODE_PYTHON_AUTOACTIVATE_GUARD: string;
+		VSCODE_NONCE: string;
 		windir: string;
 		ZES_ENABLE_SYSMAN: string;
 		__PSLockDownPolicy: string;
