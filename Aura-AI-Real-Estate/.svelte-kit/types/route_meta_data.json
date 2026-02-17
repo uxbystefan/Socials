@@ -1,0 +1,8 @@
+{
+	"/": [],
+	"/contact": [],
+	"/properties": [],
+	"/property/[id]": [
+		"src/routes/property/[id]/+page.ts"
+	]
+}
